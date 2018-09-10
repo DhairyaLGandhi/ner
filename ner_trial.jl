@@ -2,7 +2,7 @@
 	returns a dictionary with words as keys and glove embeddings as vals
 """
 function get_vecs()
-	fname = "/Users/dhairyagandhi/Downloads/ner/sequence_tagging/data/glove.6B/glove.6B.100d.txt";
+	fname = "data/glove.6B/glove.6B.100d.txt";
 	file = open(fname);
 	lines = eachline(file);
 	dic = Dict()
